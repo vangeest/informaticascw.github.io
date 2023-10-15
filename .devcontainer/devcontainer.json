@@ -1,12 +1,9 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "hostRequirements": {
-    "cpus": 4
-  },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
   "postCreateCommand": "",
-  "postStartCommand": "python3 -m http.server -d ./mybook/_build/html",
+  "postStartCommand": "python3 -m http.server -d mybook/_build/html &",
   "customizations": {
     "codespaces": {
       "openFiles": []
