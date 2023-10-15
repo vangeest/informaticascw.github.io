@@ -12,7 +12,7 @@ more info https://jupyterbook.org/en/stable/start/overview.html
 
 ### 2. Update contents of your book
 1. edit files in mybook
-2. export book to html with ``jupyter-book build --all mybookname``
+2. export book to html with ``jupyter-book build mybook`` , if this doesn't work use ``jupyter-book build --all mybook``
 3. start html-server ``python3 -m http.server -d mybook/_build/html``
 
 ### 3. Publish on a website
@@ -23,3 +23,4 @@ more info https://jupyterbook.org/en/stable/start/overview.html
 
 ### other costomizations
 1. add .svcode/settings.json with better settings for using github
+2. automated 2.2 and 2.3 by adding start.sh and adding installation of entr and proper starting of shart.sh to .devcontainer/devcontainer.json

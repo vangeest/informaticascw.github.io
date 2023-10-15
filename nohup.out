@@ -1,0 +1,325 @@
+Running Jupyter-Book v0.15.1
+Source Folder: /workspaces/codespaces-jupyter/mybook
+Config Path: /workspaces/codespaces-jupyter/mybook/_config.yml
+Output Path: /workspaces/codespaces-jupyter/mybook/_build/html
+[sphinxcontrib-bibtex] Beware that docutils versions 0.18 and 0.19 (you are running 0.18.1) are known to generate invalid html for citations. If this issue affects you, please use docutils<0.18 (or >=0.20 once released) instead. For more details, see https://sourceforge.net/p/docutils/patches/195/
+[01mRunning Sphinx v5.0.2[39;49;00m
+[etoc] Changing master_doc to 'intro'
+[01mloading pickled environment... [39;49;00mchecking bibtex cache... up to date
+done
+[01mmyst v0.18.1:[39;49;00m MdParserConfig(commonmark_only=False, gfm_only=False, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution', 'tasklist'], disable_syntax=[], all_links_external=False, url_schemes=['mailto', 'http', 'https'], ref_domains=None, highlight_code_blocks=True, number_code_blocks=[], title_to_header=False, heading_anchors=None, heading_slug_func=None, footnote_transition=True, words_per_minute=200, sub_delimiters=('{', '}'), linkify_fuzzy_links=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, dmath_double_inline=False, update_mathjax=True, mathjax_classes='tex2jax_process|mathjax_process|math|output_area')
+[01mmyst-nb v0.17.2:[39;49;00m NbParserConfig(custom_formats={}, metadata_key='mystnb', cell_metadata_key='mystnb', kernel_rgx_aliases={}, execution_mode='force', execution_cache_path='', execution_excludepatterns=[], execution_timeout=30, execution_in_temp=False, execution_allow_errors=False, execution_raise_on_error=False, execution_show_tb=False, merge_streams=False, render_plugin='default', remove_code_source=False, remove_code_outputs=False, code_prompt_show='Show code cell {type}', code_prompt_hide='Hide code cell {type}', number_source_lines=False, output_stderr='show', render_text_lexer='myst-ansi', render_error_lexer='ipythontb', render_image_options={}, render_figure_options={}, render_markdown_format='commonmark', output_folder='build', append_css=True, metadata_to_fm=False)
+Using jupyter-cache at: /workspaces/codespaces-jupyter/mybook/_build/.jupyter_cache
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 7 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 0 changed, 0 removed
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[ 14%] [32mimage-classifier[39;49;00m                                      [01mwriting output... [39;49;00m[ 28%] [32mintro[39;49;00m                                                 [01mwriting output... [39;49;00m[ 42%] [32mmarkdown[39;49;00m                                              [01mwriting output... [39;49;00m[ 57%] [32mmarkdown-notebooks[39;49;00m                                    [01mwriting output... [39;49;00m[ 71%] [32mmatplotlib[39;49;00m                                            [01mwriting output... [39;49;00m[ 85%] [32mnotebooks[39;49;00m                                             [01mwriting output... [39;49;00m[100%] [32mpopulation[39;49;00m                                            
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying images... [39;49;00m[ 10%] [33m_build/jupyter_execute/59956d806d1e4789aa56801639311e6ff15b87626cac6e8bb25f503c30d9fbb4.png[39;49;00m[01mcopying images... [39;49;00m[ 20%] [33m_build/jupyter_execute/8e0e09a8071b8ccf5c52b2e0f34e6f71d685b54208dafc419bbc24e1eb4dedf4.png[39;49;00m[01mcopying images... [39;49;00m[ 30%] [33m_build/jupyter_execute/4b697dd865c37289aaa18de7f46f6735aac5a6a73716cc0d439b02152babfe54.png[39;49;00m[01mcopying images... [39;49;00m[ 40%] [33m_build/jupyter_execute/efe2e70aef4c43f71880d880ebf9afe8949e00031b2218b12a75e4674782e1fc.png[39;49;00m[01mcopying images... [39;49;00m[ 50%] [33m_build/jupyter_execute/113c659920051af51903db4efc8f34abe8948641e8755ca76706ee97fee86443.png[39;49;00m[01mcopying images... [39;49;00m[ 60%] [33m_build/jupyter_execute/068b367ff1fe56168b649f37b867d7f8567bfeff1500a97b449968b1ec8ba534.png[39;49;00m[01mcopying images... [39;49;00m[ 70%] [33m_build/jupyter_execute/a6700012957ae01ee2d65b37b9f4f0ade1f474af7c795f7ba4138070ca7382d0.png[39;49;00m[01mcopying images... [39;49;00m[ 80%] [33m_build/jupyter_execute/b03541290c6b020e3f7cf10736e77defcf9f5e8649afb12e11afe7538a9659c7.png[39;49;00m[01mcopying images... [39;49;00m[ 90%] [33m_build/jupyter_execute/89ca759059dcfbc6b6219647d35b1c2fb36d2c31e2146db23badb5f85b180096.png[39;49;00m[01mcopying images... [39;49;00m[100%] [33m_build/jupyter_execute/2e680d96b6faf6e3afeb787183606809501707e1dd04ddaa8b0b228c39aeb8fc.png[39;49;00m
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in mybook/_build/html.
+
+[92m===============================================================================[0m
+
+Finished generating HTML for book.
+Your book's HTML pages are here:
+    mybook/_build/html/
+You can look at your book by opening this file in a browser:
+    mybook/_build/html/index.html
+Or paste this line directly into your browser bar:
+    file:///workspaces/codespaces-jupyter/mybook/_build/html/index.html            
+
+[92m===============================================================================[0m
+
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET / HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /intro.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285 HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/design-style.4045f2051d55cab465a707391d5b2007.min.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=ac02cc09edc035673794 HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/clipboard.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/copybutton.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/jquery.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/styles/theme.css?digest=ac02cc09edc035673794 HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824 HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/togglebutton.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/styles/pydata-sphinx-theme.css?digest=ac02cc09edc035673794 HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/styles/bootstrap.css?digest=ac02cc09edc035673794 HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=ac02cc09edc035673794 HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/copybutton.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/_sphinx_javascript_frameworks_compat.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/design-tabs.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/scripts/bootstrap.js?digest=ac02cc09edc035673794 HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/underscore.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2 HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/sphinx-thebe.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794 HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/logo.png HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/doctools.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:25] "GET /_static/togglebutton.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:53:26] "GET /_static/sphinx-thebe.js HTTP/1.1" 304 -
+Running Jupyter-Book v0.15.1
+Source Folder: /workspaces/codespaces-jupyter/mybook
+Config Path: /workspaces/codespaces-jupyter/mybook/_config.yml
+Output Path: /workspaces/codespaces-jupyter/mybook/_build/html
+[sphinxcontrib-bibtex] Beware that docutils versions 0.18 and 0.19 (you are running 0.18.1) are known to generate invalid html for citations. If this issue affects you, please use docutils<0.18 (or >=0.20 once released) instead. For more details, see https://sourceforge.net/p/docutils/patches/195/
+[01mRunning Sphinx v5.0.2[39;49;00m
+[etoc] Changing master_doc to 'intro'
+[01mloading pickled environment... [39;49;00mchecking bibtex cache... up to date
+done
+[01mmyst v0.18.1:[39;49;00m MdParserConfig(commonmark_only=False, gfm_only=False, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution', 'tasklist'], disable_syntax=[], all_links_external=False, url_schemes=['mailto', 'http', 'https'], ref_domains=None, highlight_code_blocks=True, number_code_blocks=[], title_to_header=False, heading_anchors=None, heading_slug_func=None, footnote_transition=True, words_per_minute=200, sub_delimiters=('{', '}'), linkify_fuzzy_links=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, dmath_double_inline=False, update_mathjax=True, mathjax_classes='tex2jax_process|mathjax_process|math|output_area')
+[01mmyst-nb v0.17.2:[39;49;00m NbParserConfig(custom_formats={}, metadata_key='mystnb', cell_metadata_key='mystnb', kernel_rgx_aliases={}, execution_mode='force', execution_cache_path='', execution_excludepatterns=[], execution_timeout=30, execution_in_temp=False, execution_allow_errors=False, execution_raise_on_error=False, execution_show_tb=False, merge_streams=False, render_plugin='default', remove_code_source=False, remove_code_outputs=False, code_prompt_show='Show code cell {type}', code_prompt_hide='Hide code cell {type}', number_source_lines=False, output_stderr='show', render_text_lexer='myst-ansi', render_error_lexer='ipythontb', render_image_options={}, render_figure_options={}, render_markdown_format='commonmark', output_folder='build', append_css=True, metadata_to_fm=False)
+Using jupyter-cache at: /workspaces/codespaces-jupyter/mybook/_build/.jupyter_cache
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 1 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mintro[39;49;00m                                                
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mintro[39;49;00m                                                 
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in mybook/_build/html.
+
+[92m===============================================================================[0m
+
+Finished generating HTML for book.
+Your book's HTML pages are here:
+    mybook/_build/html/
+You can look at your book by opening this file in a browser:
+    mybook/_build/html/index.html
+Or paste this line directly into your browser bar:
+    file:///workspaces/codespaces-jupyter/mybook/_build/html/index.html            
+
+[92m===============================================================================[0m
+
+Running Jupyter-Book v0.15.1
+Source Folder: /workspaces/codespaces-jupyter/mybook
+Config Path: /workspaces/codespaces-jupyter/mybook/_config.yml
+Output Path: /workspaces/codespaces-jupyter/mybook/_build/html
+[sphinxcontrib-bibtex] Beware that docutils versions 0.18 and 0.19 (you are running 0.18.1) are known to generate invalid html for citations. If this issue affects you, please use docutils<0.18 (or >=0.20 once released) instead. For more details, see https://sourceforge.net/p/docutils/patches/195/
+[01mRunning Sphinx v5.0.2[39;49;00m
+[etoc] Changing master_doc to 'intro'
+[01mloading pickled environment... [39;49;00mchecking bibtex cache... up to date
+done
+[01mmyst v0.18.1:[39;49;00m MdParserConfig(commonmark_only=False, gfm_only=False, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution', 'tasklist'], disable_syntax=[], all_links_external=False, url_schemes=['mailto', 'http', 'https'], ref_domains=None, highlight_code_blocks=True, number_code_blocks=[], title_to_header=False, heading_anchors=None, heading_slug_func=None, footnote_transition=True, words_per_minute=200, sub_delimiters=('{', '}'), linkify_fuzzy_links=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, dmath_double_inline=False, update_mathjax=True, mathjax_classes='tex2jax_process|mathjax_process|math|output_area')
+[01mmyst-nb v0.17.2:[39;49;00m NbParserConfig(custom_formats={}, metadata_key='mystnb', cell_metadata_key='mystnb', kernel_rgx_aliases={}, execution_mode='force', execution_cache_path='', execution_excludepatterns=[], execution_timeout=30, execution_in_temp=False, execution_allow_errors=False, execution_raise_on_error=False, execution_show_tb=False, merge_streams=False, render_plugin='default', remove_code_source=False, remove_code_outputs=False, code_prompt_show='Show code cell {type}', code_prompt_hide='Hide code cell {type}', number_source_lines=False, output_stderr='show', render_text_lexer='myst-ansi', render_error_lexer='ipythontb', render_image_options={}, render_figure_options={}, render_markdown_format='commonmark', output_folder='build', append_css=True, metadata_to_fm=False)
+Using jupyter-cache at: /workspaces/codespaces-jupyter/mybook/_build/.jupyter_cache
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 1 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mintro[39;49;00m                                                
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mintro[39;49;00m                                                 
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in mybook/_build/html.
+
+[92m===============================================================================[0m
+
+Finished generating HTML for book.
+Your book's HTML pages are here:
+    mybook/_build/html/
+You can look at your book by opening this file in a browser:
+    mybook/_build/html/index.html
+Or paste this line directly into your browser bar:
+    file:///workspaces/codespaces-jupyter/mybook/_build/html/index.html            
+
+[92m===============================================================================[0m
+
+127.0.0.1 - - [15/Oct/2023 19:54:09] "GET /intro.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:54:09] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:54:09] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:54:09] "GET /_static/copybutton.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:54:09] "GET /_static/basic.css HTTP/1.1" 200 -
+Running Jupyter-Book v0.15.1
+Source Folder: /workspaces/codespaces-jupyter/mybook
+Config Path: /workspaces/codespaces-jupyter/mybook/_config.yml
+Output Path: /workspaces/codespaces-jupyter/mybook/_build/html
+[sphinxcontrib-bibtex] Beware that docutils versions 0.18 and 0.19 (you are running 0.18.1) are known to generate invalid html for citations. If this issue affects you, please use docutils<0.18 (or >=0.20 once released) instead. For more details, see https://sourceforge.net/p/docutils/patches/195/
+[01mRunning Sphinx v5.0.2[39;49;00m
+[etoc] Changing master_doc to 'intro'
+[01mloading pickled environment... [39;49;00mchecking bibtex cache... up to date
+done
+[01mmyst v0.18.1:[39;49;00m MdParserConfig(commonmark_only=False, gfm_only=False, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution', 'tasklist'], disable_syntax=[], all_links_external=False, url_schemes=['mailto', 'http', 'https'], ref_domains=None, highlight_code_blocks=True, number_code_blocks=[], title_to_header=False, heading_anchors=None, heading_slug_func=None, footnote_transition=True, words_per_minute=200, sub_delimiters=('{', '}'), linkify_fuzzy_links=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, dmath_double_inline=False, update_mathjax=True, mathjax_classes='tex2jax_process|mathjax_process|math|output_area')
+[01mmyst-nb v0.17.2:[39;49;00m NbParserConfig(custom_formats={}, metadata_key='mystnb', cell_metadata_key='mystnb', kernel_rgx_aliases={}, execution_mode='force', execution_cache_path='', execution_excludepatterns=[], execution_timeout=30, execution_in_temp=False, execution_allow_errors=False, execution_raise_on_error=False, execution_show_tb=False, merge_streams=False, render_plugin='default', remove_code_source=False, remove_code_outputs=False, code_prompt_show='Show code cell {type}', code_prompt_hide='Hide code cell {type}', number_source_lines=False, output_stderr='show', render_text_lexer='myst-ansi', render_error_lexer='ipythontb', render_image_options={}, render_figure_options={}, render_markdown_format='commonmark', output_folder='build', append_css=True, metadata_to_fm=False)
+Using jupyter-cache at: /workspaces/codespaces-jupyter/mybook/_build/.jupyter_cache
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 1 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mintro[39;49;00m                                                
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mintro[39;49;00m                                                 
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in mybook/_build/html.
+
+[92m===============================================================================[0m
+
+Finished generating HTML for book.
+Your book's HTML pages are here:
+    mybook/_build/html/
+You can look at your book by opening this file in a browser:
+    mybook/_build/html/index.html
+Or paste this line directly into your browser bar:
+    file:///workspaces/codespaces-jupyter/mybook/_build/html/index.html            
+
+[92m===============================================================================[0m
+
+127.0.0.1 - - [15/Oct/2023 19:54:47] "GET /intro.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:54:47] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:54:47] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:54:47] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:54:47] "GET /_static/copybutton.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:54:59] "GET /intro.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:54:59] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:54:59] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:54:59] "GET /_static/copybutton.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:54:59] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:55:01] "GET /intro.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:55:01] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:55:01] "GET /_static/copybutton.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:55:01] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:55:01] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:55:02] "GET /intro.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:55:03] "GET /intro.html HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:55:03] "GET /_static/pygments.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:55:03] "GET /_static/copybutton.js HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:55:03] "GET /_static/basic.css HTTP/1.1" 304 -
+127.0.0.1 - - [15/Oct/2023 19:55:03] "GET /_static/documentation_options.js HTTP/1.1" 304 -
+Running Jupyter-Book v0.15.1
+Source Folder: /workspaces/codespaces-jupyter/mybook
+Config Path: /workspaces/codespaces-jupyter/mybook/_config.yml
+Output Path: /workspaces/codespaces-jupyter/mybook/_build/html
+[sphinxcontrib-bibtex] Beware that docutils versions 0.18 and 0.19 (you are running 0.18.1) are known to generate invalid html for citations. If this issue affects you, please use docutils<0.18 (or >=0.20 once released) instead. For more details, see https://sourceforge.net/p/docutils/patches/195/
+[01mRunning Sphinx v5.0.2[39;49;00m
+[etoc] Changing master_doc to 'intro'
+[01mloading pickled environment... [39;49;00mchecking bibtex cache... up to date
+done
+[01mmyst v0.18.1:[39;49;00m MdParserConfig(commonmark_only=False, gfm_only=False, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution', 'tasklist'], disable_syntax=[], all_links_external=False, url_schemes=['mailto', 'http', 'https'], ref_domains=None, highlight_code_blocks=True, number_code_blocks=[], title_to_header=False, heading_anchors=None, heading_slug_func=None, footnote_transition=True, words_per_minute=200, sub_delimiters=('{', '}'), linkify_fuzzy_links=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, dmath_double_inline=False, update_mathjax=True, mathjax_classes='tex2jax_process|mathjax_process|math|output_area')
+[01mmyst-nb v0.17.2:[39;49;00m NbParserConfig(custom_formats={}, metadata_key='mystnb', cell_metadata_key='mystnb', kernel_rgx_aliases={}, execution_mode='force', execution_cache_path='', execution_excludepatterns=[], execution_timeout=30, execution_in_temp=False, execution_allow_errors=False, execution_raise_on_error=False, execution_show_tb=False, merge_streams=False, render_plugin='default', remove_code_source=False, remove_code_outputs=False, code_prompt_show='Show code cell {type}', code_prompt_hide='Hide code cell {type}', number_source_lines=False, output_stderr='show', render_text_lexer='myst-ansi', render_error_lexer='ipythontb', render_image_options={}, render_figure_options={}, render_markdown_format='commonmark', output_folder='build', append_css=True, metadata_to_fm=False)
+Using jupyter-cache at: /workspaces/codespaces-jupyter/mybook/_build/.jupyter_cache
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 1 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mintro[39;49;00m                                                
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mintro[39;49;00m                                                 
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in mybook/_build/html.
+
+[92m===============================================================================[0m
+
+Finished generating HTML for book.
+Your book's HTML pages are here:
+    mybook/_build/html/
+You can look at your book by opening this file in a browser:
+    mybook/_build/html/index.html
+Or paste this line directly into your browser bar:
+    file:///workspaces/codespaces-jupyter/mybook/_build/html/index.html            
+
+[92m===============================================================================[0m
+
+127.0.0.1 - - [15/Oct/2023 19:55:10] "GET /intro.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:55:10] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:55:10] "GET /_static/basic.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:55:10] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:55:10] "GET /_static/copybutton.js HTTP/1.1" 200 -
+Running Jupyter-Book v0.15.1
+Source Folder: /workspaces/codespaces-jupyter/mybook
+Config Path: /workspaces/codespaces-jupyter/mybook/_config.yml
+Output Path: /workspaces/codespaces-jupyter/mybook/_build/html
+[sphinxcontrib-bibtex] Beware that docutils versions 0.18 and 0.19 (you are running 0.18.1) are known to generate invalid html for citations. If this issue affects you, please use docutils<0.18 (or >=0.20 once released) instead. For more details, see https://sourceforge.net/p/docutils/patches/195/
+[01mRunning Sphinx v5.0.2[39;49;00m
+[etoc] Changing master_doc to 'intro'
+[01mloading pickled environment... [39;49;00mchecking bibtex cache... up to date
+done
+[01mmyst v0.18.1:[39;49;00m MdParserConfig(commonmark_only=False, gfm_only=False, enable_extensions=['colon_fence', 'dollarmath', 'linkify', 'substitution', 'tasklist'], disable_syntax=[], all_links_external=False, url_schemes=['mailto', 'http', 'https'], ref_domains=None, highlight_code_blocks=True, number_code_blocks=[], title_to_header=False, heading_anchors=None, heading_slug_func=None, footnote_transition=True, words_per_minute=200, sub_delimiters=('{', '}'), linkify_fuzzy_links=True, dmath_allow_labels=True, dmath_allow_space=True, dmath_allow_digits=True, dmath_double_inline=False, update_mathjax=True, mathjax_classes='tex2jax_process|mathjax_process|math|output_area')
+[01mmyst-nb v0.17.2:[39;49;00m NbParserConfig(custom_formats={}, metadata_key='mystnb', cell_metadata_key='mystnb', kernel_rgx_aliases={}, execution_mode='force', execution_cache_path='', execution_excludepatterns=[], execution_timeout=30, execution_in_temp=False, execution_allow_errors=False, execution_raise_on_error=False, execution_show_tb=False, merge_streams=False, render_plugin='default', remove_code_source=False, remove_code_outputs=False, code_prompt_show='Show code cell {type}', code_prompt_hide='Hide code cell {type}', number_source_lines=False, output_stderr='show', render_text_lexer='myst-ansi', render_error_lexer='ipythontb', render_image_options={}, render_figure_options={}, render_markdown_format='commonmark', output_folder='build', append_css=True, metadata_to_fm=False)
+Using jupyter-cache at: /workspaces/codespaces-jupyter/mybook/_build/.jupyter_cache
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mbuilding [html]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m0 added, 1 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mintro[39;49;00m                                                
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mintro[39;49;00m                                                 
+[01mgenerating indices... [39;49;00mgenindex done
+[01mwriting additional pages... [39;49;00msearch done
+[01mcopying static files... [39;49;00mdone
+[01mcopying extra files... [39;49;00mdone
+[01mdumping search index in English (code: en)... [39;49;00mdone
+[01mdumping object inventory... [39;49;00mdone
+[01mbuild succeeded.[39;49;00m
+
+The HTML pages are in mybook/_build/html.
+
+[92m===============================================================================[0m
+
+Finished generating HTML for book.
+Your book's HTML pages are here:
+    mybook/_build/html/
+You can look at your book by opening this file in a browser:
+    mybook/_build/html/index.html
+Or paste this line directly into your browser bar:
+    file:///workspaces/codespaces-jupyter/mybook/_build/html/index.html            
+
+[92m===============================================================================[0m
+
+127.0.0.1 - - [15/Oct/2023 19:55:24] "GET /intro.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:55:24] "GET /_static/documentation_options.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:55:24] "GET /_static/pygments.css HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:55:24] "GET /_static/copybutton.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2023 19:55:24] "GET /_static/basic.css HTTP/1.1" 200 -
+entr: cannot open 'mybook/image-classifier.ipynb': No such file or directory

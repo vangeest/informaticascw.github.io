@@ -2,8 +2,8 @@
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
-  "postCreateCommand": "",
-  "postStartCommand": "python3 -m http.server -d mybook/_build/html &",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install entr",
+  "postStartCommand": "nohup bash -c './start.sh &'",
   "customizations": {
     "codespaces": {
       "openFiles": []
