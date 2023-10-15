@@ -1,5 +1,25 @@
+---
+myst:
+  enable_extensions: ["iframe"]
+---
+
 # Welcome to your Jupyter Book
-automatic update after each edit (almost instantly)
+automatic update after each edit (almost instantly) 4
+
+:::{figure} https://source.unsplash.com/random/400x200?beach,ocean
+:name: myFigure
+:alt: Random image of the beach or ocean!
+:align: center
+
+Relaxing at the beach 🏝 🌊 😎
+:::
+
+:::{iframe} https://www.youtube.com/embed/F3st8X0L1Ys
+
+:::
+
+
+abba3
 
 This is a small sample book to give you a feel for how book content is
 structured.
